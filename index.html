@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Fair Go Study</title>
+<meta name="description" content="The Fair Go Study explores how Australian students in Years 9–12 understand success, opportunity and fairness.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+ --ink:#263028;--green:#40523f;--green2:#65745e;--sage:#c1c9b7;
+ --cream:#f3efe5;--paper:#fffdf8;--sand:#d8cdbb;--line:#ded9ce;--muted:#697168
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",Arial,sans-serif;font-size:17px;line-height:1.65}
+a{color:inherit}.nav{position:sticky;top:0;z-index:20;background:#fffdf8ed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{max-width:1160px;margin:auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:13px;font-weight:700;letter-spacing:.13em}.links{display:flex;gap:28px;font-size:14px}.links a{text-decoration:none}.links a:hover{text-decoration:underline}
+.hero{min-height:84vh;padding:80px 24px;display:grid;align-items:center;background:
+linear-gradient(120deg,var(--cream) 0%,#eee9df 56%,#dfe6db 100%)}
+.hero-in{max-width:1160px;width:100%;margin:auto;display:grid;grid-template-columns:1.12fr .88fr;gap:75px;align-items:center}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:700;color:var(--green)}
+h1,h2,h3{font-family:"Playfair Display",Georgia,serif;font-weight:700}
+h1{font-size:clamp(55px,7.7vw,105px);line-height:.96;letter-spacing:-.045em;margin:18px 0 28px}
+h2{font-size:clamp(39px,5.2vw,67px);line-height:1.03;letter-spacing:-.035em;margin:12px 0 25px}
+h3{font-size:25px;line-height:1.2;margin:10px 0}
+.lead{font-size:20px;line-height:1.55;max-width:720px;color:#4f5951}
+.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;border:1px solid var(--ink);border-radius:999px;padding:13px 21px;text-decoration:none;font-weight:700;font-size:15px}.primary{background:var(--green);border-color:var(--green);color:white}
+.hero-card{background:var(--paper);border:1px solid var(--line);padding:40px;box-shadow:0 20px 55px #26302816;transform:rotate(1.8deg);border-radius:4px}
+.hero-card .statement{font-family:"Playfair Display",Georgia,serif;font-size:43px;line-height:1.12;margin:18px 0}
+.hero-card p{margin:0;color:var(--muted)}
+section{padding:105px 24px}.wrap{max-width:1100px;margin:auto}
+.intro{display:grid;grid-template-columns:.85fr 1.15fr;gap:75px}.quote{font-family:"Playfair Display",Georgia,serif;font-size:31px;line-height:1.2;border-left:4px solid var(--green);padding-left:23px;margin-top:30px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:45px}.stat{background:var(--paper);padding:25px}.stat strong{font-family:"Playfair Display",Georgia,serif;font-size:28px;display:block}.stat span{font-size:13px;color:var(--muted)}
+.cream{background:var(--cream)}.dark{background:var(--green);color:white}.dark .eyebrow{color:#dbe3d5}.dark .lead{color:#e5e9e1}
+.questions{display:grid;grid-template-columns:repeat(2,1fr);gap:17px;margin-top:45px}.question{background:var(--cream);color:var(--ink);padding:30px;min-height:160px;border-radius:4px}.question b{font-family:"Playfair Display",Georgia,serif;font-size:25px}
+.impact{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.impact-card{border:1px solid var(--line);padding:34px;background:var(--paper)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:48px;border-top:1px solid var(--line)}.step{padding:25px 20px 0;border-right:1px solid var(--line)}.step:last-child{border-right:0}.num{font-size:11px;font-weight:700;letter-spacing:.15em;color:var(--green)}
+.final{text-align:center;background:var(--cream);padding:105px 24px}.final .lead{margin:auto}.footer{background:#19211b;color:#e5ebe1;padding:45px 24px}.foot{max-width:1100px;margin:auto;display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap}
+@media(max-width:800px){.links{display:none}.hero-in,.intro,.impact{grid-template-columns:1fr}.questions,.steps,.stats{grid-template-columns:1fr}section{padding:75px 20px}.hero{padding:60px 20px}.hero-card{transform:none}h1{font-size:59px}.hero-card .statement{font-size:35px}.step{border-right:0;border-top:1px solid var(--line);padding:22px 0}.step:first-child{border-top:0}}
+</style>
+</head>
+<body>
+
+<header class="nav"><div class="navin">
+<div class="logo">THE FAIR GO STUDY</div>
+<nav class="links"><a href="#about">About</a><a href="#research">Research</a><a href="#impact">Impact</a><a href="#survey">Participate</a></nav>
+</div></header>
+
+<main>
+<section class="hero">
+<div class="hero-in">
+<div>
+<div class="eyebrow">Independent national research · 2026</div>
+<h1>What does a fair go look like?</h1>
+<p class="lead">The Fair Go Study explores how Australian students in Years 9–12 understand <b>success, opportunity and fairness</b>.</p>
+<div class="buttons"><a class="btn primary" href="#survey">Have your say</a><a class="btn" href="#research">Explore the research</a></div>
+</div>
+<div class="hero-card">
+<div class="eyebrow">THE BIG QUESTION</div>
+<div class="statement">Does everyone have a fair chance to succeed?</div>
+<p>The study asks young Australians what they think — and what they believe shapes the opportunities people have.</p>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="wrap intro">
+<div>
+<div class="eyebrow">The idea</div>
+<h2>Australia is built around the idea of a “fair go”.</h2>
+<div class="quote">But what does that actually mean to young Australians?</div>
+</div>
+<div>
+<p class="lead">The Fair Go Study asks students across Australia to share their views on success, opportunity and fairness.</p>
+<p>Does working hard give everyone the same chance to succeed? How much do family circumstances, education or where someone lives matter? And do young people think Australia lives up to the idea of a fair go?</p>
+<p>Rather than assuming the answers, the study asks students directly.</p>
+<div class="stats">
+<div class="stat"><strong>Years 9–12</strong><span>Australian students invited to participate</span></div>
+<div class="stat"><strong>~5 minutes</strong><span>Anonymous survey</span></div>
+<div class="stat"><strong>23 October</strong><span>Survey closes in 2026</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="research" class="dark">
+<div class="wrap">
+<div class="eyebrow">The research</div>
+<h2>What are we asking?</h2>
+<p class="lead">The study looks at how young Australians understand the things that can shape a person's chances in life.</p>
+<div class="questions">
+<div class="question"><b>What does success mean?</b><br>Is success mainly about hard work, or do other things shape where someone ends up?</div>
+<div class="question"><b>What shapes opportunity?</b><br>How much can family, education, location and circumstances affect the chances people have?</div>
+<div class="question"><b>What is a “fair go”?</b><br>How do young Australians understand fairness and equal opportunity?</div>
+<div class="question"><b>Does Australia provide one?</b><br>Do students believe everyone has a genuine chance to succeed?</div>
+</div>
+</div>
+</section>
+
+<section id="impact">
+<div class="wrap impact">
+<div>
+<div class="eyebrow">From research to impact</div>
+<h2>What happens to the answers?</h2>
+<p class="lead">The survey is only the beginning. The findings are intended to become a resource that can contribute to wider conversations about opportunity, inequality and policy.</p>
+</div>
+<div class="impact-card">
+<h3>After 23 October 2026</h3>
+<p>The survey will close and the responses will be analysed. The findings will be brought together in the <b>Fair Go Report</b>.</p>
+<p>The report will be published and the findings can be shared with MPs, ministers, government departments and organisations working with young people.</p>
+<p><b>The goal: make young people's perspectives part of the conversation about the policies and systems that shape their opportunities.</b></p>
+</div>
+</div>
+</section>
+
+<section class="cream">
+<div class="wrap">
+<div class="eyebrow">The process</div>
+<h2>From responses to action.</h2>
+<div class="steps">
+<div class="step"><div class="num">01 · LISTEN</div><h3>Collect responses</h3><p>Students across Australia share their experiences and perspectives.</p></div>
+<div class="step"><div class="num">02 · ANALYSE</div><h3>Find the patterns</h3><p>Responses are analysed to understand what students think about success, opportunity and fairness.</p></div>
+<div class="step"><div class="num">03 · REPORT</div><h3>Build the findings</h3><p>The results become the Fair Go Report, bringing the national picture together.</p></div>
+<div class="step"><div class="num">04 · SHARE</div><h3>Start the conversation</h3><p>The findings can reach organisations and decision-makers who shape policy.</p></div>
+</div>
+</div>
+</section>
+
+<section id="survey" class="final">
+<div class="eyebrow">Australian students · Years 9–12</div>
+<h2>Your perspective belongs here.</h2>
+<p class="lead">The survey is anonymous and takes approximately five minutes. There are no right or wrong answers — the study wants honest perspectives from students across Australia.</p>
+<div class="buttons" style="justify-content:center"><a class="btn primary" href="PASTE-SURVEY-LINK-HERE" target="_blank" rel="noopener">Take the survey</a></div>
+<p style="font-size:13px;color:var(--muted);margin-top:18px">Survey closes 23 October 2026.</p>
+</section>
+</main>
+
+<footer class="footer"><div class="foot">
+<div><b>THE FAIR GO STUDY</b><br>Independent national research · 2026</div>
+<div><a href="mailto:thefairgostudy@gmail.com">thefairgostudy@gmail.com</a><br>@thefairgostudy</div>
+</div></footer>
+</body>
+</html>
